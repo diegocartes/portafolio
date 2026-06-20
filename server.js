@@ -5,7 +5,10 @@ const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(__dirname, {
+  index: 'index.html',
+  extensions: ['html']
+}));
 
 app.get('/api/profile', (req, res) => {
   const profilePath = path.join(__dirname, 'data', 'profile.json');
@@ -18,7 +21,7 @@ app.get('/api/profile', (req, res) => {
 });
 
 app.get('/cv', (req, res) => {
-  const cvPath = path.join(__dirname, 'public', 'assets', 'CV_Diego_Cartes_Solorza.pdf');
+  const cvPath = path.join(__dirname, 'assets', 'CV_Diego_Cartes_Solorza.pdf');
   res.download(cvPath, 'CV_Diego_Cartes_Solorza.pdf', (err) => {
     if (err && !res.headersSent) {
       res.status(404).send('CV no disponible');
@@ -27,7 +30,7 @@ app.get('/cv', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(PORT, () => {

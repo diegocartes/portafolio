@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = (req, res) => {
-  const cvPath = path.join(process.cwd(), 'public', 'assets', 'CV_Diego_Cartes_Solorza.pdf');
+  const cvPath = path.join(process.cwd(), 'assets', 'CV_Diego_Cartes_Solorza.pdf');
   try {
     const data = fs.readFileSync(cvPath);
     res.setHeader('Content-Type', 'application/pdf');
