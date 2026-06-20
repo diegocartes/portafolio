@@ -1,0 +1,6 @@
+server.js
+node_modules
+.git
+.claude
+README.md
+*.log
