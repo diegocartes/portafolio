@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Cartes Solorza — Ingeniero Civil Industrial</title>
+  <meta name="description" content="Diego Cartes Solorza · Ingeniero Civil Industrial. Transformación digital, automatización de procesos y desarrollo fullstack." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="nav__brand">
+        <span class="nav__logo">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="1.5"/><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.5"/></svg>
+        </span>
+        <span class="nav__name">diego.cartes<span class="nav__dim">.dev</span></span>
+      </a>
+      <nav class="nav__menu" id="navMenu">
+        <a href="#perfil">Perfil</a>
+        <a href="#work">Experiencia</a>
+        <a href="#software">Software</a>
+        <a href="#stack">Stack</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="nav__actions">
+        <a href="/cv" class="btn btn--sm btn--primary" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Descargar CV</span>
+        </a>
+        <button class="nav__toggle" id="navToggle" aria-label="Menú">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge badge--success">
+            <span class="badge__dot"></span>
+            Disponible para nuevos proyectos
+          </span>
+
+          <h1 class="hero__title">
+            Diego Cartes <span class="hero__title-soft">Solorza</span>
+          </h1>
+
+          <p class="hero__tagline">
+            Ingeniero Civil Industrial con 15+ años transformando operaciones industriales mediante <span class="text-accent">automatización</span>, <span class="text-accent">control de procesos</span> y <span class="text-accent">desarrollo de software</span>.
+          </p>
+
+          <div class="hero__meta">
+            <span class="hero__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Concepción, Chile
+            </span>
+            <span class="hero__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Faena · turnos
+            </span>
+            <span class="hero__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              diegocartes@gmail.com
+            </span>
+          </div>
+
+          <div class="hero__ctas">
+            <a href="#contacto" class="btn btn--primary">
+              Conversemos
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/diegocartes" target="_blank" rel="noopener" class="btn btn--ghost">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="/cv" class="btn btn--ghost" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              CV.pdf
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero__aside">
+          <figure class="profile-card">
+            <div class="profile-card__photo">
+              <img src="/assets/foto-diego.jpg" alt="Diego Cartes" onerror="this.style.display='none'; this.parentElement.classList.add('is-fallback');" />
+              <span class="profile-card__fallback">DC</span>
+            </div>
+            <div class="profile-card__body">
+              <div class="profile-card__row">
+                <span class="profile-card__label">Rol</span>
+                <span class="profile-card__value">Ingeniero Civil Industrial</span>
+              </div>
+              <div class="profile-card__row">
+                <span class="profile-card__label">Magíster</span>
+                <span class="profile-card__value">Alta Dirección y Gestión</span>
+              </div>
+              <div class="profile-card__row">
+                <span class="profile-card__label">Foco</span>
+                <span class="profile-card__value">Transformación Digital · QA/QC</span>
+              </div>
+              <div class="profile-card__row">
+                <span class="profile-card__label">Estado</span>
+                <span class="profile-card__value text-accent">Disponible</span>
+              </div>
+            </div>
+          </figure>
+        </aside>
+      </div>
+
+      <div class="container">
+        <ul class="hero__metrics" id="heroMetrics"></ul>
+      </div>
+    </section>
+
+    <!-- PERFIL -->
+    <section id="perfil" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">
+            <span class="section__num">01</span>
+            <span>Perfil</span>
+          </span>
+          <h2 class="section__title">Sobre mí</h2>
+        </header>
+
+        <div class="grid grid--2">
+          <div>
+            <p class="prose" data-bind="perfil"></p>
+          </div>
+          <aside>
+            <h3 class="block-label">Competencias clave</h3>
+            <ul class="chips" id="competenciasList"></ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">
+            <span class="section__num">02</span>
+            <span>Experiencia</span>
+          </span>
+          <h2 class="section__title">Trayectoria profesional</h2>
+          <p class="section__sub">15+ años en industrias de alta exigencia: gran minería del cobre, operaciones forestales y logística.</p>
+        </header>
+
+        <ol class="work" id="timeline"></ol>
+
+        <div class="otras-block">
+          <h3 class="block-label">Otras experiencias</h3>
+          <ul class="otras-list" id="otrasList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOFTWARE -->
+    <section id="software" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">
+            <span class="section__num">03</span>
+            <span>Software</span>
+          </span>
+          <h2 class="section__title">Desarrollo & Automatización</h2>
+          <p class="section__sub" id="softwareIntro"></p>
+        </header>
+
+        <div class="soft-grid" id="softwareGrid"></div>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">
+            <span class="section__num">04</span>
+            <span>Stack</span>
+          </span>
+          <h2 class="section__title">Herramientas & Tecnología</h2>
+        </header>
+
+        <div class="stack" id="herramientasGrid"></div>
+      </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion" class="section">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">
+            <span class="section__num">05</span>
+            <span>Educación</span>
+          </span>
+          <h2 class="section__title">Formación & certificaciones</h2>
+        </header>
+
+        <div class="grid grid--2">
+          <div>
+            <h3 class="block-label">Formación académica</h3>
+            <ul class="edu-list" id="formacionList"></ul>
+          </div>
+          <div>
+            <h3 class="block-label">Certificaciones</h3>
+            <ul class="edu-list" id="certsList"></ul>
+          </div>
+        </div>
+
+        <div class="docencia-block">
+          <h3 class="block-label">Experiencia docente</h3>
+          <ul class="otras-list" id="docenciaList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section--cta">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__label">
+            <span class="section__num">06</span>
+            <span>Contacto</span>
+          </span>
+          <h2 class="section__title">¿Tienes un proyecto en mente?</h2>
+          <p class="section__sub">Abierto a colaboraciones, transformación digital, QA/QC y consultoría en automatización. Elige el canal que prefieras.</p>
+        </header>
+
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:diegocartes@gmail.com">
+            <div class="contact-card__top">
+              <span class="contact-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              </span>
+              <span class="contact-card__arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M7 7h10v10"/></svg>
+              </span>
+            </div>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">diegocartes@gmail.com</span>
+          </a>
+          <a class="contact-card contact-card--accent" href="https://wa.me/56964078757?text=Hola%20Diego%2C%20vi%20tu%20portafolio" target="_blank" rel="noopener">
+            <div class="contact-card__top">
+              <span class="contact-card__icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/></svg>
+              </span>
+              <span class="contact-card__arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M7 7h10v10"/></svg>
+              </span>
+            </div>
+            <span class="contact-card__label">WhatsApp</span>
+            <span class="contact-card__value">+569 6407 8757</span>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/diegocartes" target="_blank" rel="noopener">
+            <div class="contact-card__top">
+              <span class="contact-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </span>
+              <span class="contact-card__arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M7 7h10v10"/></svg>
+              </span>
+            </div>
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">/in/diegocartes</span>
+          </a>
+          <a class="contact-card" href="/cv" download>
+            <div class="contact-card__top">
+              <span class="contact-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              </span>
+              <span class="contact-card__arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M7 7h10v10"/></svg>
+              </span>
+            </div>
+            <span class="contact-card__label">Currículum</span>
+            <span class="contact-card__value">Descargar PDF</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <span class="nav__logo nav__logo--sm">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="currentColor" stroke-width="1.5"/><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.5"/></svg>
+        </span>
+        <span>© <span id="year"></span> Diego Cartes Solorza</span>
+      </div>
+      <div class="footer__links">
+        <a href="mailto:diegocartes@gmail.com">Email</a>
+        <a href="https://wa.me/56964078757" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.linkedin.com/in/diegocartes" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="/cv" download>CV</a>
+      </div>
+      <p class="footer__meta">Built with Node.js · Express</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/56964078757?text=Hola%20Diego%2C%20vi%20tu%20portafolio" class="fab" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"/></svg>
+  </a>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

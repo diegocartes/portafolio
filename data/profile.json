@@ -1,0 +1,145 @@
+{
+  "nombre": "Diego Cartes Solorza",
+  "titulo": "Ingeniero Civil Industrial · Magíster en Alta Dirección y Gestión",
+  "subtitulo": "Especialista en Transformación Digital, Automatización de Procesos y Eficiencia Operativa",
+  "ubicacion": "Concepción, Chile · Disponibilidad para faena en sistema de turnos",
+  "contacto": {
+    "email": "diegocartes@gmail.com",
+    "telefono": "+569 6407 8757",
+    "whatsapp": "56964078757",
+    "linkedin": "https://www.linkedin.com/in/diegocartes"
+  },
+  "perfil": "Ingeniero Civil con más de 15 años de experiencia liderando proyectos, gestión de contratos, control de pagos (EEPP), control de costos y administración de servicios con empresas contratistas en entornos industriales de alta exigencia, incluyendo gran minería del cobre y operaciones forestales. Sólida trayectoria en validación de estados de pago, control documental, gestión de desviaciones contractuales, control presupuestario y relación con mandantes, ITO y múltiples proveedores. Experiencia comprobada en transformación digital, automatización de procesos y mejora continua bajo metodologías Lean y Agile, con resultados medibles en eficiencia, costos y cumplimiento contractual. Liderazgo de equipos multidisciplinarios, dominio avanzado de SAP y optimización de procesos logrando ahorros superiores a USD 2 millones anuales y reducciones de tiempo de ciclo de hasta 80%.",
+  "metricas": [
+    { "valor": "+15", "etiqueta": "Años de experiencia" },
+    { "valor": "USD 2M+", "etiqueta": "Ahorros anuales generados" },
+    { "valor": "-80%", "etiqueta": "Reducción tiempos de ciclo" },
+    { "valor": "25+", "etiqueta": "Profesionales liderados" }
+  ],
+  "competencias": [
+    "Gestión de Contratos & EEPP",
+    "QA/QC y Aseguramiento de Calidad",
+    "Lean Six Sigma & Agile",
+    "Aconex / Primavera P6",
+    "SAP MM / PM / Fiori",
+    "Transformación Digital",
+    "Liderazgo de Equipos (25+)",
+    "Power BI, Qlik Sense, Tableau",
+    "Mejora Continua y Automatización"
+  ],
+  "experiencia": [
+    {
+      "empresa": "SAENS Ltda.",
+      "cargo": "Encargado QA/QC & Control Documental — Faena Minera Antofagasta Minerals",
+      "periodo": "Dic 2025 — Presente",
+      "logros": [
+        "Lideré la gestión, implementación y control del sistema de Aseguramiento y Control de Calidad (QA/QC) en faenas de gran minería del cobre bajo lineamientos ISO 9001.",
+        "Implementé y ejecuté el Plan de Aseguramiento de Calidad (PAC) y el Plan de Inspección y Ensayos (PIE), conforme a la normativa minera vigente.",
+        "Aseguré la trazabilidad y calidad de las obras mediante revisión y aprobación de procedimientos constructivos, ITP, carpetas TOP y dossiers de calidad.",
+        "Gestioné el ciclo de No Conformidades (NCR), liderando el análisis de causa raíz y acciones correctivas y preventivas.",
+        "Colaboré estratégicamente con la Administración de Contratos en gestión documental, control de desviaciones y validación de EEPP.",
+        "Dirigí el control documental del proyecto bajo estándares ISO 9001 e ISO 30301 a través de la plataforma Aconex y el SGI interno."
+      ]
+    },
+    {
+      "empresa": "Arauco S.A.",
+      "cargo": "Jefe de Control de Contratos y Procesos Logísticos",
+      "periodo": "Oct 2023 — May 2025",
+      "logros": [
+        "Administré contratos de servicios logísticos y operacionales con más de 200 empresas contratistas a nivel nacional, liderando un equipo de 25 colaboradores.",
+        "Validé respaldos contractuales y aprobé estados de pago (EEPP) asociados a más de 720.000 transacciones anuales.",
+        "Reduje en 25% el gasto anual en compras (USD 2 millones de ahorro) mediante centralización y negociación por volumen.",
+        "Sistematicé en SAP MM el control de stock, despacho y recepción de insumos agroquímicos (compras anuales por USD 6 millones), rebajando mermas en USD 100.000.",
+        "Implementé reportes de gestión en Qlik Sense para Alta Gerencia, mejorando flujos de ingreso en 17% (76.500 m³ adicionales).",
+        "Reestructuré horarios y funciones del equipo, reduciendo tiempos de carga a sistema en 87,5% y aumentando velocidad de despacho en 75%."
+      ]
+    },
+    {
+      "empresa": "Arauco S.A.",
+      "cargo": "Líder de Proyectos Tecnológicos e Innovación",
+      "periodo": "Ene 2020 — Sept 2023",
+      "logros": [
+        "Lideré proyectos de transformación digital y mejora de procesos en áreas Productivas, Logística y Administración, aplicando metodologías Agile.",
+        "Automaticé el ciclo completo de ingreso de insumos (Ingreso, Pesaje, Cubicación y Guías de Despacho) para 500 camiones diarios, reduciendo tiempos de 35 a 7 minutos (-80%).",
+        "Implementé sistema automatizado de control de flota para 180 camiones de áridos (GPS, datos, guías electrónicas), reduciendo plazo de pago de 30 a 7 días y costos en CLP 864 millones anuales.",
+        "Audité el proceso de control de producción forestal en 4 plantas de celulosa y 11 aserraderos, liderando centralización con reducción de dotación en 42% y ahorros de CLP 388 millones anuales."
+      ]
+    },
+    {
+      "empresa": "Arauco S.A.",
+      "cargo": "Ingeniero Control de Contratos y Gestión",
+      "periodo": "Ene 2016 — Dic 2019",
+      "logros": [
+        "Administré contratos de servicios con cerca de 200 empresas contratistas operativas, gestionando pagos anuales por USD 240 millones.",
+        "Validé estados de pago (EEPP) y respaldos documentales asociados a producción forestal y servicios contratados.",
+        "Lideré la centralización en SAP-MII del control documental de producción, reduciendo errores de pago en 5% (USD 12 millones) y mejorando tiempos de pago de 30 a 7 días.",
+        "Desarrollé el Balanced Scorecard corporativo forestal, automatizando tableros con indicadores financieros, operacionales y de productividad.",
+        "Reduje desviaciones presupuestarias de la gerencia de control y gestión en 5% (USD 2 millones anuales)."
+      ]
+    }
+  ],
+  "otrasExperiencias": [
+    { "cargo": "Administrador de Contrato", "empresa": "MxT — Cencosud / Santa Isabel (+100 guardias RM)", "periodo": "Ene 2013 — Mar 2016" },
+    { "cargo": "Ingeniero Control de Gestión", "empresa": "Bosques Arauco S.A.", "periodo": "Sept 2010 — Dic 2015" },
+    { "cargo": "Analista de Producción Forestal", "empresa": "Patagon Ltda / Bosques Arauco S.A.", "periodo": "Mar 2010 — Ago 2010" },
+    { "cargo": "Asset Manager", "empresa": "Hewlett-Packard — Complejo industrial Arauco Horcones", "periodo": "Mar 2007 — Feb 2010" },
+    { "cargo": "Analista de Producción Fibra L1", "empresa": "Celulosa Arauco (práctica profesional)", "periodo": "Ene 2007 — Mar 2007" }
+  ],
+  "desarrolloSoftware": {
+    "descripcion": "Complemento mi perfil de gestión con capacidades técnicas para diseñar, construir y desplegar soluciones digitales end-to-end. Combino la visión de negocio con desarrollo fullstack y automatización para entregar herramientas que impactan directamente en eficiencia operativa y toma de decisiones.",
+    "areas": [
+      {
+        "titulo": "Automatización de Reportes",
+        "icono": "report",
+        "descripcion": "Diseño y desarrollo de sistemas que generan reportes ejecutivos de forma automatizada, integrando fuentes ERP, bases de datos y APIs.",
+        "tags": ["Python", "Power BI", "Qlik Sense", "Tableau", "Excel + Macros", "ETL"]
+      },
+      {
+        "titulo": "Desarrollo Fullstack JavaScript",
+        "icono": "code",
+        "descripcion": "Construcción de aplicaciones web completas con Node.js y Express en el backend, frontend moderno y base de datos PostgreSQL para sistemas de gestión, dashboards y workflows operacionales.",
+        "tags": ["Node.js", "Express", "PostgreSQL", "JavaScript", "HTML5", "CSS3", "REST APIs"]
+      },
+      {
+        "titulo": "Integración con ERP y Sistemas Industriales",
+        "icono": "plug",
+        "descripcion": "Integración de procesos productivos y logísticos con SAP (MM/PM/Fiori), Oracle Aconex y plataformas de control documental para automatizar flujos de pago, despacho y trazabilidad.",
+        "tags": ["SAP MM", "SAP PM", "SAP Fiori", "Oracle Aconex", "SAP-MII"]
+      },
+      {
+        "titulo": "Calidad de Código y Metodologías",
+        "icono": "check",
+        "descripcion": "Aplico testing, control de versiones y prácticas ágiles para asegurar entregables mantenibles y escalables.",
+        "tags": ["Git", "Testing", "Scrum", "Kanban", "Lean", "Six Sigma"]
+      }
+    ]
+  },
+  "formacion": [
+    { "titulo": "Magíster en Gestión y Liderazgo en Alta Dirección", "institucion": "Universidad San Sebastián (USS)", "periodo": "2023 — 2025" },
+    { "titulo": "Diplomado en Convivencia Organizacional", "institucion": "Universidad Autónoma de Chile", "periodo": "2022 — 2023" },
+    { "titulo": "Ingeniero Civil Industrial", "institucion": "Universidad Central de Chile", "periodo": "2007 — 2012" }
+  ],
+  "certificaciones": [
+    { "nombre": "Oracle Aconex — Nivel Profesional", "institucion": "Academia Oracle eLearning", "anio": "2026" },
+    { "nombre": "Gestión de Proyectos Mineros", "institucion": "MineClass", "anio": "2026" },
+    { "nombre": "Geología General", "institucion": "MineClass", "anio": "2026" },
+    { "nombre": "Fundamentos Profesionales de Gestión de Proyectos", "institucion": "Microsoft", "anio": "2025" },
+    { "nombre": "IA Generativa e Inteligencia Emocional en la Gestión Empresarial", "institucion": "Project Management Institute", "anio": "2025" },
+    { "nombre": "Python: Automation, Testing y Calidad de Código", "institucion": "Learning", "anio": "2025" },
+    { "nombre": "Gestión de Proyectos con Agile y Lean", "institucion": "Pontificia Universidad Católica de Chile", "anio": "2022" },
+    { "nombre": "Lean Thinking & Six Sigma Yellow Belt", "institucion": "Lean Sigma & Service Consulting", "anio": "2016" },
+    { "nombre": "Metodología Kaizen y 5S", "institucion": "Quinta Era", "anio": "2016" }
+  ],
+  "herramientas": [
+    { "categoria": "Control Documental", "items": ["Oracle Aconex", "Softexpert"] },
+    { "categoria": "ERP y Gestión", "items": ["SAP MM", "SAP PM", "SAP Fiori"] },
+    { "categoria": "Proyectos", "items": ["Primavera P6", "MS Project"] },
+    { "categoria": "Business Intelligence", "items": ["Power BI", "Qlik Sense", "Tableau"] },
+    { "categoria": "Productividad", "items": ["Excel Avanzado", "Jira", "Trello", "Google Workspace", "Microsoft Office"] },
+    { "categoria": "Programación", "items": ["JavaScript", "Node.js", "Express", "PostgreSQL", "Python", "PHP", "Git"] }
+  ],
+  "docencia": [
+    { "rol": "Profesor de Física y Química", "institucion": "Liceo Enrique Molina — Servicio Local Andalién Sur", "periodo": "2025" },
+    { "rol": "Docente Universitario", "institucion": "Ingeniería en Administración de Empresas e Ingeniería en Prevención de Riesgos — Optimización, Simulación, Gestión Administrativa y de Personas", "periodo": "2011 — 2015" }
+  ]
+}
